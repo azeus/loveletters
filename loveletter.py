@@ -6,7 +6,7 @@ import time
 
 def send_email(recipient, subject, msg):
    GMAIL_ID = '<email id>'
-   GMAIL_PWD = ''
+   GMAIL_PWD = '<email pwd>'
 
    email = EmailMessage()
    email['Subject'] = subject
@@ -25,5 +25,5 @@ msg = 'I am thinking about you'
 while True:
     schedule.run_pending()
     time.sleep(86400)
-    send_email('nischal.nmk@gmail.com', 'love letter', msg)
+    send_email('<lover's email id>', 'love letter', msg)
 
