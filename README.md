@@ -13,7 +13,7 @@ Prerequisites
 
 	1.	Python: Make sure Python 3.6+ is installed on your system.
 	2.	Email Account: A Gmail account to send the emails.
-	3.	Environment Variables: For security, store your email credentials securely.
+	
 
 Installation
 
@@ -22,23 +22,7 @@ Installation
 git clone https://github.com/azeus/loveletters.git
 cd loveletters
 
-
-	2.	Set Up Environment Variables
-Add the following variables to your environment:
-	•	GMAIL_ID: Your Gmail address.
-	•	GMAIL_PWD: Your Gmail password or app-specific password.
-For Mac/Linux:
-
-export GMAIL_ID="your-email@gmail.com"
-export GMAIL_PWD="your-email-password"
-
-For Windows:
-
-set GMAIL_ID=your-email@gmail.com
-set GMAIL_PWD=your-email-password
-
-
-	3.	Install Required Libraries
+	2.	Install Required Libraries
 Ensure schedule is installed. If not, install it using pip:
 
 pip install schedule
